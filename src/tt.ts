@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
-import commandExists = require('command-exists');
 import { Octokit } from '@octokit/core';
+const commandExists = require('command-exists');
 
 const octokit = new Octokit();
 
